@@ -1,0 +1,9 @@
+postgres:
+  user: "postgres"
+  port: "localhost"
+  pass: "postgres"
+  host: "6432"
+  dbname: "labs"
+  sslmode: "disable"
+migration:
+  path: "./migrations"
